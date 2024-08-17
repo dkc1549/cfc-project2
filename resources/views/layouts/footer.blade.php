@@ -1,12 +1,12 @@
 <footer>
-    <div class="'container">
-        <div class="row">
+    <div class="container">
+        <div class="row text-center">
             <div class="col-lg-6">
                 <h2>BMS is a simple blog management system
             </h2>
         </div>
         <div class="col-lg-6">
-            <ul>
+            <ul style="list-style: none;">
                 <li> links</li>
                 <li> links</li>
                 <li> links</li>

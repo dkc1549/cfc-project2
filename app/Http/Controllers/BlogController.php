@@ -12,6 +12,18 @@ class BlogController extends Controller
     public function create(){
         return view('blogs.create');
     }
+
+    public function store(Request $request){
+        $request->validate([
+            'title' => 'required',
+            'author' => 'required',
+            'feature_image' => 'required | image',
+            'highlight' => 'sometimes',
+            'description' => 'sometimes',
+        ]);
+
+        
+    }
     public function view($id){
         return view('blogs.view');
     }
