@@ -7,7 +7,7 @@
 
     <main>
         <div class="container">
-            <form action="" method="post">
+            <form action="{{route('blogs.store')}}" method="post" enctype="multipart/form-data">
                 @csrf
                 <div class="mb-3">
                     <label for="title" class="form-label text-capitalize"><span class="text-danger">* </span>title</label>
